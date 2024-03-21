@@ -147,8 +147,8 @@ namespace ControleDeVendas.br.com.ctvendas.view
             tabelaFuncionarios.DataSource = dao.listarFuncionarios();
         }
 
-        private void btnpesquisar_Click(object sender,EventArgs e)
-          
+        private void btnpesquisar_Click(object sender, EventArgs e)
+
         {
             string nome = btnpesquisar.Text;
 

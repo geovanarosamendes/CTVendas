@@ -85,7 +85,7 @@
             // 
             // panel1
             // 
-            panel1.BackColor = Color.FromArgb(192, 0, 192);
+            panel1.BackColor = Color.FromArgb(0, 0, 64);
             panel1.Controls.Add(label1);
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
@@ -97,10 +97,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.BackColor = Color.FromArgb(192, 0, 192);
+            label1.BackColor = Color.FromArgb(0, 0, 64);
             label1.Font = new Font("Century", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             label1.ForeColor = SystemColors.Control;
-            label1.Location = new Point(31, 27);
+            label1.Location = new Point(321, 27);
             label1.Name = "label1";
             label1.Size = new Size(265, 25);
             label1.TabIndex = 0;
@@ -192,7 +192,7 @@
             // senha
             // 
             senha.AutoSize = true;
-            senha.ForeColor = Color.Purple;
+            senha.ForeColor = Color.FromArgb(0, 0, 64);
             senha.Location = new Point(11, 86);
             senha.Name = "senha";
             senha.Size = new Size(55, 19);
@@ -202,7 +202,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.ForeColor = Color.Purple;
+            label6.ForeColor = Color.FromArgb(0, 0, 64);
             label6.Location = new Point(11, 124);
             label6.Name = "label6";
             label6.Size = new Size(54, 19);
@@ -212,7 +212,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.ForeColor = Color.Purple;
+            label5.ForeColor = Color.FromArgb(0, 0, 64);
             label5.Location = new Point(374, 124);
             label5.Name = "label5";
             label5.Size = new Size(121, 19);
@@ -221,7 +221,7 @@
             // 
             // btnBuscar
             // 
-            btnBuscar.BackColor = Color.Purple;
+            btnBuscar.BackColor = Color.FromArgb(0, 0, 64);
             btnBuscar.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnBuscar.ForeColor = SystemColors.ButtonFace;
             btnBuscar.Location = new Point(141, 237);
@@ -244,7 +244,7 @@
             // label16
             // 
             label16.AutoSize = true;
-            label16.ForeColor = Color.Purple;
+            label16.ForeColor = Color.FromArgb(0, 0, 64);
             label16.Location = new Point(227, 240);
             label16.Name = "label16";
             label16.Size = new Size(32, 19);
@@ -261,7 +261,7 @@
             // label17
             // 
             label17.AutoSize = true;
-            label17.ForeColor = Color.Purple;
+            label17.ForeColor = Color.FromArgb(0, 0, 64);
             label17.Location = new Point(418, 278);
             label17.Name = "label17";
             label17.Size = new Size(60, 19);
@@ -278,7 +278,7 @@
             // label18
             // 
             label18.AutoSize = true;
-            label18.ForeColor = Color.Purple;
+            label18.ForeColor = Color.FromArgb(0, 0, 64);
             label18.Location = new Point(336, 239);
             label18.Name = "label18";
             label18.Size = new Size(58, 19);
@@ -295,7 +295,7 @@
             // label19
             // 
             label19.AutoSize = true;
-            label19.ForeColor = Color.Purple;
+            label19.ForeColor = Color.FromArgb(0, 0, 64);
             label19.Location = new Point(579, 238);
             label19.Name = "label19";
             label19.Size = new Size(109, 19);
@@ -312,7 +312,7 @@
             // label20
             // 
             label20.AutoSize = true;
-            label20.ForeColor = Color.Purple;
+            label20.ForeColor = Color.FromArgb(0, 0, 64);
             label20.Location = new Point(683, 279);
             label20.Name = "label20";
             label20.Size = new Size(70, 19);
@@ -329,7 +329,7 @@
             // label21
             // 
             label21.AutoSize = true;
-            label21.ForeColor = Color.Purple;
+            label21.ForeColor = Color.FromArgb(0, 0, 64);
             label21.Location = new Point(5, 278);
             label21.Name = "label21";
             label21.Size = new Size(79, 19);
@@ -347,7 +347,7 @@
             // label22
             // 
             label22.AutoSize = true;
-            label22.ForeColor = Color.Purple;
+            label22.ForeColor = Color.FromArgb(0, 0, 64);
             label22.Location = new Point(11, 242);
             label22.Name = "label22";
             label22.Size = new Size(39, 19);
@@ -365,7 +365,7 @@
             // label23
             // 
             label23.AutoSize = true;
-            label23.ForeColor = Color.Purple;
+            label23.ForeColor = Color.FromArgb(0, 0, 64);
             label23.Location = new Point(191, 183);
             label23.Name = "label23";
             label23.Size = new Size(62, 19);
@@ -383,7 +383,7 @@
             // label24
             // 
             label24.AutoSize = true;
-            label24.ForeColor = Color.Purple;
+            label24.ForeColor = Color.FromArgb(0, 0, 64);
             label24.Location = new Point(472, 183);
             label24.Name = "label24";
             label24.Size = new Size(72, 19);
@@ -401,7 +401,7 @@
             // cpf
             // 
             cpf.AutoSize = true;
-            cpf.ForeColor = Color.Purple;
+            cpf.ForeColor = Color.FromArgb(0, 0, 64);
             cpf.Location = new Point(630, 25);
             cpf.Name = "cpf";
             cpf.Size = new Size(40, 19);
@@ -419,7 +419,7 @@
             // rg
             // 
             rg.AutoSize = true;
-            rg.ForeColor = Color.Purple;
+            rg.ForeColor = Color.FromArgb(0, 0, 64);
             rg.Location = new Point(632, 53);
             rg.Name = "rg";
             rg.Size = new Size(33, 19);
@@ -436,7 +436,7 @@
             // email
             // 
             email.AutoSize = true;
-            email.ForeColor = Color.Purple;
+            email.ForeColor = Color.FromArgb(0, 0, 64);
             email.Location = new Point(12, 53);
             email.Name = "email";
             email.Size = new Size(56, 19);
@@ -454,7 +454,7 @@
             // nome
             // 
             nome.AutoSize = true;
-            nome.ForeColor = Color.Purple;
+            nome.ForeColor = Color.FromArgb(0, 0, 64);
             nome.Location = new Point(161, 19);
             nome.Name = "nome";
             nome.Size = new Size(54, 19);
@@ -471,7 +471,7 @@
             // label29
             // 
             label29.AutoSize = true;
-            label29.ForeColor = Color.Purple;
+            label29.ForeColor = Color.FromArgb(0, 0, 64);
             label29.Location = new Point(12, 21);
             label29.Name = "label29";
             label29.Size = new Size(61, 19);
@@ -497,7 +497,7 @@
             // 
             tabelaFuncionarios.AllowUserToAddRows = false;
             tabelaFuncionarios.AllowUserToDeleteRows = false;
-            tabelaFuncionarios.BackgroundColor = Color.Purple;
+            tabelaFuncionarios.BackgroundColor = Color.FromArgb(192, 192, 255);
             tabelaFuncionarios.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             tabelaFuncionarios.GridColor = SystemColors.ActiveBorder;
             tabelaFuncionarios.Location = new Point(13, 71);
@@ -509,7 +509,7 @@
             // 
             // btnpesquisar
             // 
-            btnpesquisar.BackColor = Color.Purple;
+            btnpesquisar.BackColor = Color.FromArgb(0, 0, 64);
             btnpesquisar.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnpesquisar.ForeColor = SystemColors.ButtonFace;
             btnpesquisar.Location = new Point(411, 21);
@@ -530,7 +530,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.ForeColor = Color.Purple;
+            label2.ForeColor = Color.FromArgb(0, 0, 64);
             label2.Location = new Point(12, 27);
             label2.Name = "label2";
             label2.Size = new Size(54, 19);
@@ -542,7 +542,7 @@
             btnsalvar.BackColor = Color.FromArgb(0, 192, 0);
             btnsalvar.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnsalvar.ForeColor = SystemColors.ButtonFace;
-            btnsalvar.Location = new Point(594, 451);
+            btnsalvar.Location = new Point(685, 451);
             btnsalvar.Name = "btnsalvar";
             btnsalvar.Size = new Size(99, 27);
             btnsalvar.TabIndex = 9;
@@ -552,7 +552,7 @@
             // 
             // btnexcluir
             // 
-            btnexcluir.BackColor = Color.Red;
+            btnexcluir.BackColor = Color.FromArgb(0, 0, 64);
             btnexcluir.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnexcluir.ForeColor = SystemColors.ButtonFace;
             btnexcluir.Location = new Point(488, 451);
@@ -565,7 +565,7 @@
             // 
             // btneditar
             // 
-            btneditar.BackColor = Color.Purple;
+            btneditar.BackColor = Color.FromArgb(0, 0, 64);
             btneditar.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btneditar.ForeColor = SystemColors.ButtonFace;
             btneditar.Location = new Point(381, 451);
@@ -578,7 +578,7 @@
             // 
             // btnnovo
             // 
-            btnnovo.BackColor = Color.Purple;
+            btnnovo.BackColor = Color.FromArgb(0, 0, 64);
             btnnovo.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnnovo.ForeColor = SystemColors.ButtonFace;
             btnnovo.Location = new Point(275, 451);

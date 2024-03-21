@@ -47,7 +47,6 @@
             btnpesquisar = new Button();
             txtpesquisa = new TextBox();
             label2 = new Label();
-            button1 = new Button();
             panel1.SuspendLayout();
             tabClientes.SuspendLayout();
             tabPage1.SuspendLayout();
@@ -71,7 +70,7 @@
             label1.BackColor = Color.FromArgb(0, 0, 64);
             label1.Font = new Font("Century", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             label1.ForeColor = SystemColors.ButtonHighlight;
-            label1.Location = new Point(31, 27);
+            label1.Location = new Point(364, 25);
             label1.Name = "label1";
             label1.Size = new Size(224, 25);
             label1.TabIndex = 0;
@@ -90,7 +89,6 @@
             // 
             // tabPage1
             // 
-            tabPage1.Controls.Add(button1);
             tabPage1.Controls.Add(cbfornecedor);
             tabPage1.Controls.Add(label4);
             tabPage1.Controls.Add(textpreco);
@@ -121,7 +119,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.ForeColor = Color.Purple;
+            label4.ForeColor = Color.FromArgb(0, 0, 64);
             label4.Location = new Point(14, 140);
             label4.Name = "label4";
             label4.Size = new Size(94, 19);
@@ -138,7 +136,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.ForeColor = Color.Purple;
+            label3.ForeColor = Color.FromArgb(0, 0, 64);
             label3.Location = new Point(526, 54);
             label3.Name = "label3";
             label3.Size = new Size(87, 19);
@@ -155,7 +153,7 @@
             // label27
             // 
             label27.AutoSize = true;
-            label27.ForeColor = Color.Purple;
+            label27.ForeColor = Color.FromArgb(0, 0, 64);
             label27.Location = new Point(12, 89);
             label27.Name = "label27";
             label27.Size = new Size(97, 19);
@@ -173,7 +171,7 @@
             // label28
             // 
             label28.AutoSize = true;
-            label28.ForeColor = Color.Purple;
+            label28.ForeColor = Color.FromArgb(0, 0, 64);
             label28.Location = new Point(12, 51);
             label28.Name = "label28";
             label28.Size = new Size(81, 19);
@@ -190,7 +188,7 @@
             // label29
             // 
             label29.AutoSize = true;
-            label29.ForeColor = Color.Purple;
+            label29.ForeColor = Color.FromArgb(0, 0, 64);
             label29.Location = new Point(12, 21);
             label29.Name = "label29";
             label29.Size = new Size(61, 19);
@@ -216,7 +214,7 @@
             // 
             tbgProdutos.AllowUserToAddRows = false;
             tbgProdutos.AllowUserToDeleteRows = false;
-            tbgProdutos.BackgroundColor = Color.FromArgb(0, 0, 64);
+            tbgProdutos.BackgroundColor = Color.FromArgb(192, 192, 255);
             tbgProdutos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             tbgProdutos.GridColor = SystemColors.ActiveBorder;
             tbgProdutos.Location = new Point(13, 71);
@@ -249,22 +247,12 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.ForeColor = Color.Purple;
+            label2.ForeColor = Color.FromArgb(0, 0, 64);
             label2.Location = new Point(12, 27);
             label2.Name = "label2";
             label2.Size = new Size(54, 19);
             label2.TabIndex = 35;
             label2.Text = "Nome:";
-            // 
-            // button1
-            // 
-            button1.Location = new Point(488, 137);
-            button1.Name = "button1";
-            button1.Size = new Size(96, 27);
-            button1.TabIndex = 41;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
             // 
             // FrmProdutos
             // 
@@ -308,6 +296,5 @@
         private Label label3;
         private ComboBox cbfornecedor;
         private Label label4;
-        private Button button1;
     }
 }

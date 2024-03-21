@@ -31,11 +31,11 @@
             panel1 = new Panel();
             label1 = new Label();
             groupBox1 = new GroupBox();
-            label28 = new Label();
-            label2 = new Label();
-            dateTimePicker1 = new DateTimePicker();
-            dateTimePicker2 = new DateTimePicker();
             button3 = new Button();
+            dateTimePicker2 = new DateTimePicker();
+            dateTimePicker1 = new DateTimePicker();
+            label2 = new Label();
+            label28 = new Label();
             dataGridView1 = new DataGridView();
             codigo = new DataGridViewTextBoxColumn();
             DataVenda = new DataGridViewTextBoxColumn();
@@ -83,46 +83,6 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Consulta";
             // 
-            // label28
-            // 
-            label28.AutoSize = true;
-            label28.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label28.ForeColor = Color.Purple;
-            label28.Location = new Point(32, 26);
-            label28.Name = "label28";
-            label28.Size = new Size(86, 21);
-            label28.TabIndex = 36;
-            label28.Text = "Data início:";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.ForeColor = Color.Purple;
-            label2.Location = new Point(36, 73);
-            label2.Name = "label2";
-            label2.Size = new Size(82, 21);
-            label2.TabIndex = 37;
-            label2.Text = "Data Final:";
-            // 
-            // dateTimePicker1
-            // 
-            dateTimePicker1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            dateTimePicker1.Format = DateTimePickerFormat.Short;
-            dateTimePicker1.Location = new Point(124, 22);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(124, 29);
-            dateTimePicker1.TabIndex = 38;
-            // 
-            // dateTimePicker2
-            // 
-            dateTimePicker2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            dateTimePicker2.Format = DateTimePickerFormat.Short;
-            dateTimePicker2.Location = new Point(124, 69);
-            dateTimePicker2.Name = "dateTimePicker2";
-            dateTimePicker2.Size = new Size(124, 29);
-            dateTimePicker2.TabIndex = 39;
-            // 
             // button3
             // 
             button3.BackColor = Color.FromArgb(0, 0, 64);
@@ -135,6 +95,46 @@
             button3.Text = "Pesquisar";
             button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
+            // 
+            // dateTimePicker2
+            // 
+            dateTimePicker2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            dateTimePicker2.Format = DateTimePickerFormat.Short;
+            dateTimePicker2.Location = new Point(124, 69);
+            dateTimePicker2.Name = "dateTimePicker2";
+            dateTimePicker2.Size = new Size(124, 29);
+            dateTimePicker2.TabIndex = 39;
+            // 
+            // dateTimePicker1
+            // 
+            dateTimePicker1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            dateTimePicker1.Format = DateTimePickerFormat.Short;
+            dateTimePicker1.Location = new Point(124, 22);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(124, 29);
+            dateTimePicker1.TabIndex = 38;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.ForeColor = Color.FromArgb(0, 0, 64);
+            label2.Location = new Point(36, 73);
+            label2.Name = "label2";
+            label2.Size = new Size(82, 21);
+            label2.TabIndex = 37;
+            label2.Text = "Data Final:";
+            // 
+            // label28
+            // 
+            label28.AutoSize = true;
+            label28.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label28.ForeColor = Color.FromArgb(0, 0, 64);
+            label28.Location = new Point(32, 26);
+            label28.Name = "label28";
+            label28.Size = new Size(86, 21);
+            label28.TabIndex = 36;
+            label28.Text = "Data início:";
             // 
             // dataGridView1
             // 

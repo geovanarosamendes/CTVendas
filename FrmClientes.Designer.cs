@@ -78,21 +78,21 @@
             // 
             // panel1
             // 
-            panel1.BackColor = Color.FromArgb(255, 192, 255);
+            panel1.BackColor = Color.FromArgb(0, 0, 64);
             panel1.Controls.Add(label1);
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(800, 87);
+            panel1.Size = new Size(983, 87);
             panel1.TabIndex = 0;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.BackColor = Color.FromArgb(255, 192, 255);
+            label1.BackColor = Color.FromArgb(0, 0, 64);
             label1.Font = new Font("Century", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.ForeColor = SystemColors.ActiveCaptionText;
-            label1.Location = new Point(27, 29);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(385, 33);
             label1.Name = "label1";
             label1.Size = new Size(218, 25);
             label1.TabIndex = 0;
@@ -106,11 +106,15 @@
             tabclientes.Location = new Point(12, 93);
             tabclientes.Name = "tabclientes";
             tabclientes.SelectedIndex = 0;
-            tabclientes.Size = new Size(776, 345);
+            tabclientes.Size = new Size(971, 426);
             tabclientes.TabIndex = 1;
             // 
             // tabDadosClientes
             // 
+            tabDadosClientes.Controls.Add(btnnovo);
+            tabDadosClientes.Controls.Add(btnexcluir);
+            tabDadosClientes.Controls.Add(btnsalvar);
+            tabDadosClientes.Controls.Add(btneditar);
             tabDadosClientes.Controls.Add(txtuf);
             tabDadosClientes.Controls.Add(label16);
             tabDadosClientes.Controls.Add(txtcidade);
@@ -143,7 +147,7 @@
             tabDadosClientes.Location = new Point(4, 24);
             tabDadosClientes.Name = "tabDadosClientes";
             tabDadosClientes.Padding = new Padding(3);
-            tabDadosClientes.Size = new Size(768, 317);
+            tabDadosClientes.Size = new Size(963, 398);
             tabDadosClientes.TabIndex = 0;
             tabDadosClientes.Text = "Dados Pessoais";
             tabDadosClientes.UseVisualStyleBackColor = true;
@@ -160,7 +164,7 @@
             // label16
             // 
             label16.AutoSize = true;
-            label16.ForeColor = Color.Purple;
+            label16.ForeColor = Color.FromArgb(0, 0, 64);
             label16.Location = new Point(346, 121);
             label16.Name = "label16";
             label16.Size = new Size(32, 19);
@@ -177,7 +181,7 @@
             // label17
             // 
             label17.AutoSize = true;
-            label17.ForeColor = Color.Purple;
+            label17.ForeColor = Color.FromArgb(0, 0, 64);
             label17.Location = new Point(224, 197);
             label17.Name = "label17";
             label17.Size = new Size(60, 19);
@@ -194,7 +198,7 @@
             // label18
             // 
             label18.AutoSize = true;
-            label18.ForeColor = Color.Purple;
+            label18.ForeColor = Color.FromArgb(0, 0, 64);
             label18.Location = new Point(11, 197);
             label18.Name = "label18";
             label18.Size = new Size(58, 19);
@@ -211,7 +215,7 @@
             // label19
             // 
             label19.AutoSize = true;
-            label19.ForeColor = Color.Purple;
+            label19.ForeColor = Color.FromArgb(0, 0, 64);
             label19.Location = new Point(460, 197);
             label19.Name = "label19";
             label19.Size = new Size(109, 19);
@@ -228,7 +232,7 @@
             // label20
             // 
             label20.AutoSize = true;
-            label20.ForeColor = Color.Purple;
+            label20.ForeColor = Color.FromArgb(0, 0, 64);
             label20.Location = new Point(575, 156);
             label20.Name = "label20";
             label20.Size = new Size(70, 19);
@@ -245,7 +249,7 @@
             // label21
             // 
             label21.AutoSize = true;
-            label21.ForeColor = Color.Purple;
+            label21.ForeColor = Color.FromArgb(0, 0, 64);
             label21.Location = new Point(211, 153);
             label21.Name = "label21";
             label21.Size = new Size(79, 19);
@@ -263,7 +267,7 @@
             // label22
             // 
             label22.AutoSize = true;
-            label22.ForeColor = Color.Purple;
+            label22.ForeColor = Color.FromArgb(0, 0, 64);
             label22.Location = new Point(215, 121);
             label22.Name = "label22";
             label22.Size = new Size(39, 19);
@@ -281,7 +285,7 @@
             // label23
             // 
             label23.AutoSize = true;
-            label23.ForeColor = Color.Purple;
+            label23.ForeColor = Color.FromArgb(0, 0, 64);
             label23.Location = new Point(8, 150);
             label23.Name = "label23";
             label23.Size = new Size(62, 19);
@@ -299,7 +303,7 @@
             // label24
             // 
             label24.AutoSize = true;
-            label24.ForeColor = Color.Purple;
+            label24.ForeColor = Color.FromArgb(0, 0, 64);
             label24.Location = new Point(8, 118);
             label24.Name = "label24";
             label24.Size = new Size(72, 19);
@@ -317,7 +321,7 @@
             // label25
             // 
             label25.AutoSize = true;
-            label25.ForeColor = Color.Purple;
+            label25.ForeColor = Color.FromArgb(0, 0, 64);
             label25.Location = new Point(360, 83);
             label25.Name = "label25";
             label25.Size = new Size(40, 19);
@@ -335,7 +339,7 @@
             // label26
             // 
             label26.AutoSize = true;
-            label26.ForeColor = Color.Purple;
+            label26.ForeColor = Color.FromArgb(0, 0, 64);
             label26.Location = new Point(360, 51);
             label26.Name = "label26";
             label26.Size = new Size(33, 19);
@@ -352,7 +356,7 @@
             // label27
             // 
             label27.AutoSize = true;
-            label27.ForeColor = Color.Purple;
+            label27.ForeColor = Color.FromArgb(0, 0, 64);
             label27.Location = new Point(8, 86);
             label27.Name = "label27";
             label27.Size = new Size(56, 19);
@@ -369,7 +373,7 @@
             // label28
             // 
             label28.AutoSize = true;
-            label28.ForeColor = Color.Purple;
+            label28.ForeColor = Color.FromArgb(0, 0, 64);
             label28.Location = new Point(8, 51);
             label28.Name = "label28";
             label28.Size = new Size(54, 19);
@@ -386,7 +390,7 @@
             // label29
             // 
             label29.AutoSize = true;
-            label29.ForeColor = Color.Purple;
+            label29.ForeColor = Color.FromArgb(0, 0, 64);
             label29.Location = new Point(8, 19);
             label29.Name = "label29";
             label29.Size = new Size(61, 19);
@@ -403,7 +407,7 @@
             tabConsulta.Location = new Point(4, 24);
             tabConsulta.Name = "tabConsulta";
             tabConsulta.Padding = new Padding(3);
-            tabConsulta.Size = new Size(768, 317);
+            tabConsulta.Size = new Size(963, 398);
             tabConsulta.TabIndex = 1;
             tabConsulta.Text = "Consulta";
             tabConsulta.UseVisualStyleBackColor = true;
@@ -412,19 +416,19 @@
             // 
             tbgCliente.AllowUserToAddRows = false;
             tbgCliente.AllowUserToDeleteRows = false;
-            tbgCliente.BackgroundColor = Color.FromArgb(255, 192, 255);
+            tbgCliente.BackgroundColor = Color.FromArgb(192, 192, 255);
             tbgCliente.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             tbgCliente.GridColor = SystemColors.ActiveBorder;
             tbgCliente.Location = new Point(6, 79);
             tbgCliente.Name = "tbgCliente";
             tbgCliente.ReadOnly = true;
             tbgCliente.RowTemplate.Height = 25;
-            tbgCliente.Size = new Size(747, 235);
+            tbgCliente.Size = new Size(951, 257);
             tbgCliente.TabIndex = 38;
             // 
             // btnpesquisar
             // 
-            btnpesquisar.BackColor = Color.Purple;
+            btnpesquisar.BackColor = Color.FromArgb(0, 0, 64);
             btnpesquisar.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnpesquisar.ForeColor = SystemColors.ButtonFace;
             btnpesquisar.Location = new Point(360, 22);
@@ -444,7 +448,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.ForeColor = Color.Purple;
+            label2.ForeColor = Color.FromArgb(0, 0, 64);
             label2.Location = new Point(8, 26);
             label2.Name = "label2";
             label2.Size = new Size(54, 19);
@@ -453,10 +457,10 @@
             // 
             // btnnovo
             // 
-            btnnovo.BackColor = Color.Purple;
+            btnnovo.BackColor = Color.FromArgb(0, 0, 64);
             btnnovo.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnnovo.ForeColor = SystemColors.ButtonFace;
-            btnnovo.Location = new Point(190, 471);
+            btnnovo.Location = new Point(258, 354);
             btnnovo.Name = "btnnovo";
             btnnovo.Size = new Size(87, 29);
             btnnovo.TabIndex = 2;
@@ -465,10 +469,10 @@
             // 
             // btneditar
             // 
-            btneditar.BackColor = Color.Purple;
+            btneditar.BackColor = Color.FromArgb(0, 0, 64);
             btneditar.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btneditar.ForeColor = SystemColors.ButtonFace;
-            btneditar.Location = new Point(283, 471);
+            btneditar.Location = new Point(360, 354);
             btneditar.Name = "btneditar";
             btneditar.Size = new Size(87, 29);
             btneditar.TabIndex = 3;
@@ -477,10 +481,10 @@
             // 
             // btnexcluir
             // 
-            btnexcluir.BackColor = Color.Red;
+            btnexcluir.BackColor = Color.FromArgb(0, 0, 64);
             btnexcluir.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnexcluir.ForeColor = SystemColors.ButtonFace;
-            btnexcluir.Location = new Point(376, 471);
+            btnexcluir.Location = new Point(460, 354);
             btnexcluir.Name = "btnexcluir";
             btnexcluir.Size = new Size(87, 29);
             btnexcluir.TabIndex = 4;
@@ -492,7 +496,7 @@
             btnsalvar.BackColor = Color.FromArgb(0, 192, 0);
             btnsalvar.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnsalvar.ForeColor = SystemColors.ButtonFace;
-            btnsalvar.Location = new Point(469, 471);
+            btnsalvar.Location = new Point(656, 354);
             btnsalvar.Name = "btnsalvar";
             btnsalvar.Size = new Size(87, 29);
             btnsalvar.TabIndex = 5;
@@ -503,11 +507,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 526);
-            Controls.Add(btnsalvar);
-            Controls.Add(btnexcluir);
-            Controls.Add(btneditar);
-            Controls.Add(btnnovo);
+            ClientSize = new Size(983, 575);
             Controls.Add(tabclientes);
             Controls.Add(panel1);
             Name = "FrmClientes";

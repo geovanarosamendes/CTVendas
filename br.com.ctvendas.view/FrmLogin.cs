@@ -21,5 +21,17 @@ namespace ControleDeVendas.br.com.ctvendas.view
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 acessar = new Form1();
+
+            acessar.Show();
+        }
+
+        private void FrmLogin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

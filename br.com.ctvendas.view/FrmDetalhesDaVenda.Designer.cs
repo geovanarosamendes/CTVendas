@@ -31,14 +31,14 @@
             panel1 = new Panel();
             label1 = new Label();
             groupBox1 = new GroupBox();
-            label2 = new Label();
-            label28 = new Label();
-            txtnome = new TextBox();
+            textBox3 = new TextBox();
+            label4 = new Label();
+            textBox2 = new TextBox();
             textBox1 = new TextBox();
             label3 = new Label();
-            textBox2 = new TextBox();
-            label4 = new Label();
-            textBox3 = new TextBox();
+            txtnome = new TextBox();
+            label2 = new Label();
+            label28 = new Label();
             dataGridView1 = new DataGridView();
             panel1.SuspendLayout();
             groupBox1.SuspendLayout();
@@ -84,35 +84,32 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Consulta";
             // 
-            // label2
+            // textBox3
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.ForeColor = Color.Purple;
-            label2.Location = new Point(21, 69);
-            label2.Name = "label2";
-            label2.Size = new Size(45, 21);
-            label2.TabIndex = 37;
-            label2.Text = "Data:";
+            textBox3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox3.Location = new Point(68, 111);
+            textBox3.Multiline = true;
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(806, 82);
+            textBox3.TabIndex = 45;
             // 
-            // label28
+            // label4
             // 
-            label28.AutoSize = true;
-            label28.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label28.ForeColor = Color.Purple;
-            label28.Location = new Point(21, 26);
-            label28.Name = "label28";
-            label28.Size = new Size(65, 21);
-            label28.TabIndex = 36;
-            label28.Text = "Cliente: ";
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.ForeColor = Color.FromArgb(0, 0, 64);
+            label4.Location = new Point(21, 111);
+            label4.Name = "label4";
+            label4.Size = new Size(41, 21);
+            label4.TabIndex = 44;
+            label4.Text = "Obs:";
             // 
-            // txtnome
+            // textBox2
             // 
-            txtnome.Location = new Point(80, 28);
-            txtnome.Name = "txtnome";
-            txtnome.Size = new Size(338, 23);
-            txtnome.TabIndex = 40;
-            txtnome.TextChanged += txtnome_TextChanged;
+            textBox2.Location = new Point(72, 69);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(149, 23);
+            textBox2.TabIndex = 43;
             // 
             // textBox1
             // 
@@ -125,39 +122,42 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.ForeColor = Color.Purple;
+            label3.ForeColor = Color.FromArgb(0, 0, 64);
             label3.Location = new Point(437, 30);
             label3.Name = "label3";
             label3.Size = new Size(112, 21);
             label3.TabIndex = 41;
             label3.Text = "Total da venda:";
             // 
-            // textBox2
+            // txtnome
             // 
-            textBox2.Location = new Point(72, 69);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(149, 23);
-            textBox2.TabIndex = 43;
+            txtnome.Location = new Point(80, 28);
+            txtnome.Name = "txtnome";
+            txtnome.Size = new Size(338, 23);
+            txtnome.TabIndex = 40;
+            txtnome.TextChanged += txtnome_TextChanged;
             // 
-            // label4
+            // label2
             // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.ForeColor = Color.Purple;
-            label4.Location = new Point(21, 111);
-            label4.Name = "label4";
-            label4.Size = new Size(41, 21);
-            label4.TabIndex = 44;
-            label4.Text = "Obs:";
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.ForeColor = Color.FromArgb(0, 0, 64);
+            label2.Location = new Point(21, 69);
+            label2.Name = "label2";
+            label2.Size = new Size(45, 21);
+            label2.TabIndex = 37;
+            label2.Text = "Data:";
             // 
-            // textBox3
+            // label28
             // 
-            textBox3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox3.Location = new Point(68, 111);
-            textBox3.Multiline = true;
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(806, 82);
-            textBox3.TabIndex = 45;
+            label28.AutoSize = true;
+            label28.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label28.ForeColor = Color.FromArgb(0, 0, 64);
+            label28.Location = new Point(21, 26);
+            label28.Name = "label28";
+            label28.Size = new Size(65, 21);
+            label28.TabIndex = 36;
+            label28.Text = "Cliente: ";
             // 
             // dataGridView1
             // 
